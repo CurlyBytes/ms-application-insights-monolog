@@ -1,5 +1,5 @@
 {
-  "name": "ercorp/ms-application-insights-monolog",
+  "name": "soderlind/ms-application-insights-monolog",
   "description": "Microsoft Application Insights integration for monolog. An abstract handler that sends messages to Microsoft Application Insights",
   "keywords": ["microsoft", "application insights", "monolog", "logging", "error"],
   "minimum-stability": "stable",
