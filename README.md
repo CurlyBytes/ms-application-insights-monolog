@@ -8,7 +8,7 @@ Installation
 Via Composer:
 Run the following Composer command:
 ```console
-composer require ercorp/ms-application-insights-monolog
+composer require soderlind/ms-application-insights-monolog
 ```
 
 Usage
@@ -24,7 +24,7 @@ $logger  = new Monolog\Logger("Example");
 $telemetryClient = new \ApplicationInsights\Telemetry_Client();
 $telemetryClient->getContext()->setInstrumentationKey('YOUR INSTRUMENTATION KEY');
 
-$msApplicationInsightsHandler = new \Marchie\MSApplicationInsightsMonolog\MSApplicationInsightsHandler($telemetryClient);
+$msApplicationInsightsHandler = new \ER\MSApplicationInsightsMonolog\MSApplicationInsightsHandler($telemetryClient);
 
 $logger->pushHandler($msApplicationInsightsHandler);
 
