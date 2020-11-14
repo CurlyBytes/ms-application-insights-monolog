@@ -1,5 +1,5 @@
 {
-  "name": "soderlind/ms-application-insights-monolog",
+  "name": "CurlyBytes/ms-application-insights-monolog",
   "description": "Microsoft Application Insights integration for monolog. An abstract handler that sends messages to Microsoft Application Insights",
   "keywords": ["microsoft", "application insights", "monolog", "logging", "error"],
   "minimum-stability": "stable",
@@ -14,11 +14,17 @@
       "email": "gabe.martin@emergencyreporting.com"
     }
   ],
-
+  "repositories":
+    [
+            {
+              "type": "vcs",
+              "url": "https://github.com/CurlyBytes/ApplicationInsights-PHP"
+            }
+    ],
   "require" : {
     "php": "^7.1",
     "monolog/monolog": "^1.7.0",
-    "microsoft/application-insights": "^0.4.4"
+    "microsoft/application-insights": "0.4.5 as dev-master"
   },
 
   "require-dev": {
